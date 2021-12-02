@@ -1,19 +1,45 @@
-.jumbotron {
-    color: white;
-    
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    text-align: center;
-    height: 100vh;
-  }
+.banner-image {
+  
+  background-size: cover;
+}
 
-  .jumbotronContainer{
-    
-    width: 100%; 
-    height: auto;
-    margin: top 100%;
-    padding: 10px;
-    position: relative;
-  ; 
-  }
+.banner h3 {
+  font-family: 'Outfit', sans-serif;
+  font-size: 500%;
+  color: white;
+}
+
+.banner h5 {
+  font-family: 'Outfit', sans-serif;
+  font-size: 300%;
+  color: white;
+  font-weight: bold;
+}
+
+.modulesButton  {
+  border: 2px solid lightskyblue;
+  width: 40%;
+  padding: 15px 22px;
+  background: black;
+  border-radius: 5px;
+  margin-top: 10px;
+  font-weight: bold;
+}
+
+.modulesButton a{
+  color: white;
+  text-decoration: none;
+  font-size: 1em;
+  text-transform: uppercase;
+}
+
+.modulesButton  .btn:hover{
+  border: 2px solid gray;
+  cursor: pointer;
+}
+
+
+.modulesButton :hover{
+  border: 2px solid white;
+  cursor: pointer;
+}
